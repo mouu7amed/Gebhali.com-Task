@@ -9,9 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@date-io/date-fns": "^2.15.0",
+    "@date-io/dayjs": "^2.15.0",
+    "@date-io/moment": "^2.15.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.5",
+    "@mui/styled-engine-sc": "^5.10.3",
+    "@mui/x-date-pickers": "^5.0.1",
+    "axios": "^0.27.2",
+    "framer-motion": "^7.3.5",
+    "moment": "^2.29.4",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.54.9",
+    "swr": "^1.3.0"
   },
   "devDependencies": {
     "@types/node": "18.7.17",

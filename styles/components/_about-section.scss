@@ -1,0 +1,33 @@
+.about-section {
+  padding: 4rem 1rem 1rem;
+  .head {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: $red;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  }
+
+  .about-body {
+    padding: 2rem 1rem 1rem;
+
+    .read-more-btn {
+      background-color: $red;
+      color: $white;
+      width: fit-content;
+      text-transform: unset;
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+    }
+  }
+}

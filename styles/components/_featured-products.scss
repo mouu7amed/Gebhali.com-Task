@@ -1,0 +1,30 @@
+.featured-products {
+  padding: 4rem 1rem 1rem;
+
+  .head {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+
+    p {
+      font-size: 1.5rem;
+
+      @include breakpoint(mobile) {
+        font-size: 1rem;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $red;
+      text-transform: uppercase;
+      font-weight: 600;
+      @extend %flex-center;
+
+      @include breakpoint(mobile) {
+        font-size: 0.8rem !important;
+      }
+    }
+  }
+}

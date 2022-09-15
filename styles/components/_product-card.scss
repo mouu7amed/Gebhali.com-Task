@@ -1,0 +1,9 @@
+.product-card {
+  min-height: 100%;
+  .card-content {
+    padding: 1rem 2rem;
+    .review {
+      color: $red;
+    }
+  }
+}
